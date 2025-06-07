@@ -1,0 +1,11 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 28px 28px 28px;
+}
+.mobile{
+    height: 50px;
+    width: 170px;  
+    margin-left: 20px;
+    cursor: pointer; 
+}

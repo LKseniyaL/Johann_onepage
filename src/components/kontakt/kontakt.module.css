@@ -1,0 +1,120 @@
+.kontakt{
+    padding-bottom: 112px;
+}
+.titleBlock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 64px;
+}
+.title{
+    font-size: 94px;
+    font-weight: 500;
+    color: #373434;
+}
+.subTitle{
+    font-size: 24px;
+    font-weight: 400;
+    color: #373434;
+}
+.kontaktInfoBlock{
+    display: flex;
+    gap: 109px;
+}
+.telAdresseBlock{
+
+}
+.telBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    /* align-items: center; */
+    margin-bottom: 28px;
+    padding-left: 28px;
+    border-radius: 34px;
+    width: 491px;
+    height: 280px;
+    background-color: #299230;
+}
+.telBlock a{
+    text-decoration: none;
+}
+.adresseBlock{
+
+}
+.frageBlock{
+
+}
+.whatsApp a{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.whatsAppText{
+    font-size: 24px;
+    font-weight: 400;
+    color: #F6F6F6;
+}
+.telNummer{
+    font-size: 48px;
+    font-weight: 500;
+    color: #F6F6F6;
+}
+.oder{
+    font-size: 20px;
+    color: #F6F6F6;
+}
+.block2{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 30px;
+}
+.tel .text{
+    font-size: 20px;
+    color: #F6F6F6;
+}
+.tel{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 10px;
+}
+
+/* adresse */
+.adresseBlock{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    /* justify-content: space-between; */
+    padding: 28px;
+    width: 491px;
+    height: 280px;
+    border-radius: 34px;
+    background-color: #F6F6F6;
+}
+.imgBlock a{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+}
+/* .imgBlock{
+    padding-bottom: 46px;
+} */
+.imgBlock .text{
+    font-size: 20px;
+    font-weight: 400;
+    color: #373434;
+}
+.adresseText{
+    font-size: 40px;
+    font-weight: 500;
+    color: #373434;
+}
+.öffnungszeiten{
+    font-size: 20px;
+    font-weight: 400;
+    color: #373434;
+}

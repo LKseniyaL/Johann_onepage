@@ -1,0 +1,53 @@
+.about{
+    padding-bottom: 199px;
+    padding-top: 100px;
+}
+.fotoBlock{
+
+}
+.about .title{
+    font-size: 94px;
+    font-weight: 500;
+    color: #373434;
+    padding-bottom: 52px;
+}
+.fotoAbout img{
+    object-fit: cover;
+}
+.fotoAbout img{
+    width: 537px;
+    height: 622px;
+    padding-bottom: 24px;
+}
+.uterFotoName{
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 14px;
+    color: #373434;
+}
+.unterFotoChef{
+    font-size: 28px;
+    font-weight: 400;
+    color: #373434;
+}
+.about .textBlock{
+    display: flex;
+    gap: 63px;
+    /* background: rgba(33, 117, 38, 0.49);
+    filter: blur(745.5px); */
+}
+.textAbout{
+    font-size: 28px;
+    color: #373434;
+    position: relative;
+    overflow: hidden;
+}
+
+.blurBlock{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    background: rgba(33, 117, 38, 0.49);
+    filter: blur(745.5px);
+}
