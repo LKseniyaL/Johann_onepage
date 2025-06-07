@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Johann_onepage/static/css/main.78200059.css",
+    "main.js": "/Johann_onepage/static/js/main.671b05da.js",
+    "static/media/backgraug.png": "/Johann_onepage/static/media/backgraug.b6280da5efc2c5556701.png",
+    "static/media/audi.png": "/Johann_onepage/static/media/audi.e5dda89c99d7349e4fe3.png",
+    "static/media/servisBild2.png": "/Johann_onepage/static/media/servisBild2.5742d91da5afccbadb7e.png",
+    "static/media/servisBild4.png": "/Johann_onepage/static/media/servisBild4.c933c0a71031fbece588.png",
+    "static/media/servisBild3.png": "/Johann_onepage/static/media/servisBild3.735827f6d52dda918c3e.png",
+    "static/media/servisBild1.png": "/Johann_onepage/static/media/servisBild1.213e026cec37b88e20e6.png",
+    "static/media/Johann.jpeg": "/Johann_onepage/static/media/Johann.11dfa0bc2a61693acf47.jpeg",
+    "static/media/фото клиента1.png": "/Johann_onepage/static/media/фото клиента1.0602e340849b09fd6f58.png",
+    "static/media/kunde1.png": "/Johann_onepage/static/media/kunde1.4e450bd4f4cc542dbc56.png",
+    "static/media/kunde2.png": "/Johann_onepage/static/media/kunde2.b794ce1fb929f74bb8da.png",
+    "static/media/фото2.png": "/Johann_onepage/static/media/фото2.42d999c2c9df9cff8bde.png",
+    "static/media/mobile.jpeg": "/Johann_onepage/static/media/mobile.e04c0b155b93bf2547d5.jpeg",
+    "index.html": "/Johann_onepage/index.html",
+    "main.78200059.css.map": "/Johann_onepage/static/css/main.78200059.css.map",
+    "main.671b05da.js.map": "/Johann_onepage/static/js/main.671b05da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78200059.css",
+    "static/js/main.671b05da.js"
+  ]
+}
