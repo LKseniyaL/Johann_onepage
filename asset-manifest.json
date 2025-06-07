@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Johann_onepage/static/css/main.290d81e7.css",
+    "main.css": "/Johann_onepage/static/css/main.803f68e8.css",
     "main.js": "/Johann_onepage/static/js/main.bea6f6be.js",
     "static/media/backgraug.png": "/Johann_onepage/static/media/backgraug.b6280da5efc2c5556701.png",
     "static/media/audi.png": "/Johann_onepage/static/media/audi.e5dda89c99d7349e4fe3.png",
@@ -15,11 +15,11 @@
     "static/media/фото2.png": "/Johann_onepage/static/media/фото2.42d999c2c9df9cff8bde.png",
     "static/media/mobile.jpeg": "/Johann_onepage/static/media/mobile.e04c0b155b93bf2547d5.jpeg",
     "index.html": "/Johann_onepage/index.html",
-    "main.290d81e7.css.map": "/Johann_onepage/static/css/main.290d81e7.css.map",
+    "main.803f68e8.css.map": "/Johann_onepage/static/css/main.803f68e8.css.map",
     "main.bea6f6be.js.map": "/Johann_onepage/static/js/main.bea6f6be.js.map"
   },
   "entrypoints": [
-    "static/css/main.290d81e7.css",
+    "static/css/main.803f68e8.css",
     "static/js/main.bea6f6be.js"
   ]
 }
