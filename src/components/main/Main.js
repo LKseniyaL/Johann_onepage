@@ -6,8 +6,6 @@ import Services from '../services/Services'
 import Bewertungen from '../bewertungen/Bewertungen'
 import Tipps from '../tipps/Tipps'
 import Kontakt from '../kontakt/Kontakt'
-import Faq from '../faq/Faq'
-import Footer from '../footer/Footer'
 
 export default function Main() {
   return (
@@ -17,8 +15,6 @@ export default function Main() {
       <Bewertungen/>
       <Tipps/>
       <Kontakt/>
-      <Faq/>
-      <Footer/>
     </main>
   )
 }

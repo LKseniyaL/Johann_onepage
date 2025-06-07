@@ -12,7 +12,7 @@ const TypewriterHeader = () => {
       const timeout = setTimeout(() => {
         setDisplayedText((prev) => prev + fullText.charAt(index));
         setIndex((prev) => prev + 1);
-      }, 50);
+      }, 20);
       return () => clearTimeout(timeout);
     } else {
       // Показать остальные элементы через 300 мс после окончания

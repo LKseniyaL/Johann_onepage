@@ -1,4 +1,8 @@
 footer{
+    margin: 0 auto;
+    max-width: 1280px;
+    padding-left: 28px;
+    padding-right: 28px;
     display: flex;
     justify-content: space-between;
     padding: 100px 28px 28px 28px;
@@ -8,4 +12,29 @@ footer{
     width: 170px;  
     margin-left: 20px;
     cursor: pointer; 
+}
+
+
+/* media */
+@media (max-width: 1240px) {
+  /* адаптация под ноутбуки */
+  .mobile{
+    height: 42px;
+  }
+}
+
+@media (max-width: 1199px) {
+  /* адаптация под ноутбуки */
+}
+
+@media (max-width: 991px) {
+  /* планшеты */
+}
+
+@media (max-width: 767px) {
+  /* телефоны */
+}
+
+@media (max-width: 480px) {
+  /* очень маленькие телефоны */
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import s from './bewertungen.module.css'
-import reviews from '../../arreyReviews'
+import reviews from '../../arrays/arreyReviews'
 import vector from '../../assets/images/кнопка переключения.png'
 
 export default function Bewertungen() {
@@ -50,7 +50,7 @@ export default function Bewertungen() {
                 ))}
             </div>
             <div className={s.bthBlock}>
-                <button onClick={prev} className={s.prevBtn}><img src={vector} alt="" /></button>
+                {/* <button onClick={prev} className={s.prevBtn}><img src={vector} alt="" /></button> */}
                 <button onClick={next}><img src={vector} alt="" /></button>
             </div>
         </div>

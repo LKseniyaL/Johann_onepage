@@ -3,6 +3,8 @@ import Main from './components/main/Main';
 import Hero from "./components/hero/Hero";
 import './App.css';
 import ScrollToTopButton from "./components/ ScrollToTopButton";
+import Footer from "./components/footer/Footer";
+import Faq from "./components/faq/Faq";
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <Header/>
       <Hero/>
       <Main/>
+      <Faq/>
+      <Footer/>
       <ScrollToTopButton/>
     </div>
   );

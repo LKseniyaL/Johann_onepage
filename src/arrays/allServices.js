@@ -10,13 +10,13 @@ import arrow from '../assets/images/Group 338.png';
 
 const allServices = [
   {
-    title: 'Geprüfte und getestete Gebrauchtfahrzeuge',
-    image: servisBild1
-  },
-  {
     title: 'Zusatzgarantien für mehr Sicherheit',
     image: servisBild5,
     btn: arrow
+  },
+  {
+    title: 'Geprüfte und getestete Gebrauchtfahrzeuge',
+    image: servisBild1
   },
   {
     title: 'Gebrauchtwagencheck durch unabhängige Prüf-Institutionen',

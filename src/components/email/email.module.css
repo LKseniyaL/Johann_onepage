@@ -57,3 +57,60 @@ textarea::placeholder {
     font-weight: 400;
     color: #3734344D;
 }
+
+
+/* media */
+@media (max-width: 1240px) {
+  /* адаптация под ноутбуки */
+  form{
+    width: 550px;
+    height: 514px;
+  }
+  .name{
+    width: 490px;
+    height: 40px;
+    margin-bottom: 25px;
+  }
+  .email{
+    width: 240px;
+    height: 40px;
+    margin-bottom: 25px;
+  }
+  .tel{
+    width: 240px;
+    height: 40px;
+    margin-bottom: 25px;
+  }
+  .email{
+    margin-right: 10px;
+  }
+  textarea{
+    width: 490px;
+    height: 140px;
+  }
+  .btn{
+    width: 490px;
+    height: 40px;
+    font-size: 14px;
+  }
+  .subTitel{
+    font-size: 12px;
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 1199px) {
+  /* адаптация под ноутбуки */
+}
+
+@media (max-width: 991px) {
+  /* планшеты */
+}
+
+@media (max-width: 767px) {
+  /* телефоны */
+}
+
+@media (max-width: 480px) {
+  /* очень маленькие телефоны */
+}

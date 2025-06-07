@@ -29,3 +29,28 @@
 .nav ul li:hover{
     font-size: 19px;
 }
+
+
+/* media */
+@media (max-width: 1240px) {
+  /* адаптация под ноутбуки */
+  .container{
+    padding-right: 60px;
+  }
+}
+
+@media (max-width: 1199px) {
+  /* адаптация под ноутбуки */
+}
+
+@media (max-width: 991px) {
+  /* планшеты */
+}
+
+@media (max-width: 767px) {
+  /* телефоны */
+}
+
+@media (max-width: 480px) {
+  /* очень маленькие телефоны */
+}

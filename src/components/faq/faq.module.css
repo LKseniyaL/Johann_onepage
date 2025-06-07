@@ -1,10 +1,12 @@
 .faq{
+    margin: 0 auto;
+    max-width: 1280px;
     background-image: url(../../assets/images/faq.png);
     height: 782px;
     position: relative;
 }
 .title{
-    font-size: 94px;
+    font-size: 80px;
     font-weight: 500;
     color: #373434;
     padding-left: 28px;
@@ -82,4 +84,43 @@
   align-items: center;
   transition: transform 0.3s ease;
   font-size: 16px;
+}
+
+
+
+/* media */
+@media (max-width: 1240px) {
+  /* адаптация под ноутбуки */
+  .title{
+    font-size: 70px;
+    margin-left: 40px;
+  }
+  .faqContainer{
+    margin-right: 40px;
+    margin-top: 20px;
+  }
+  .question {
+    width: 550px;
+    height: 60px;
+  }
+  .answer {
+    width: 550px;
+    padding: 24px;
+}
+}
+
+@media (max-width: 1199px) {
+  /* адаптация под ноутбуки */
+}
+
+@media (max-width: 991px) {
+  /* планшеты */
+}
+
+@media (max-width: 767px) {
+  /* телефоны */
+}
+
+@media (max-width: 480px) {
+  /* очень маленькие телефоны */
 }
