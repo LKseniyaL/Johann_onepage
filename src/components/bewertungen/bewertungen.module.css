@@ -2,7 +2,7 @@
         padding-bottom: 148px;
     }
     .title{
-        font-size: 80px;
+        font-size: clamp(32px, 6.4vw, 80px);
         font-weight: 500;
         margin-bottom: 100px;
         color: #373434;    
@@ -13,16 +13,16 @@
         align-items: end;
         justify-content: space-between;
         width: 100%;
-        height: 447px;
-        padding-top: 59px;
-        padding-left: 60px;
+        height: clamp(356px, 34vw, 447px);
+        padding-top: clamp(18px, 4.6vw, 59px);
+        padding-left: clamp(18px, 4vw, 60px);
         background-color: #F6F6F6;
         border-top-left-radius: 30px;
         border-bottom-left-radius: 30px;
     }
     .itemReviewsBlock{
         display: flex;
-        gap: 55px;
+        gap: clamp(35px, 4.2vw, 55px);
         /* justify-content: center; */
         /* align-items: center; */
     }
@@ -31,25 +31,31 @@
     }
     .fotoAndText{
         display: flex;
-        gap: 40px;
+        gap: clamp(30px, 3.1vw, 40px);
         padding-bottom: 24px;
     }
     .foto img{
-
+      width: clamp(236px, 23vw, 302px);
+      height: auto;
     }
+    /* .foto img{
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    } */
     .text{
-        font-size: 28px;
+        font-size: clamp(24px, 2.1vw, 28px);
         font-weight: 300;
         color: #000000;
         line-height: 100%;
     }
     .name{
-        font-size: 32px;
+        font-size: clamp(24px, 2.5vw, 32px);
         font-weight: 500;
         padding-bottom: 12px;
     }
     .stadt{
-        font-size: 24px;
+        font-size: clamp(20px, 1.8vw, 24px);
         font-weight: 400;
     }
     .bthBlock{
@@ -69,10 +75,10 @@
 /* media */
 @media (max-width: 1240px) {
   /* адаптация под ноутбуки */
-  .title{
+  /* .title{
     font-size: 70px;
     margin-left: 40px;
-  }
+  } */
 }
 
 @media (max-width: 1199px) {

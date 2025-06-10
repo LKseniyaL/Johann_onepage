@@ -42,7 +42,7 @@ export default function Services() {
               </div>
             </div>
             <div className={s.bild}>
-              <img src={service.image} alt="Leistungen-Bild" />
+              <img src={service.image} alt="Leistungen-Bild" className={s.images}/>
             </div>
           </div>
         ))}

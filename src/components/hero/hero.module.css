@@ -1,17 +1,19 @@
 .hero{
     position: relative;
     width: 100%;
-    max-height: 957px;
+    /* max-height: 957px; */
     overflow: hidden;
 }
-.hero img{
-    border-radius: 30px;
-    max-width: 1800px;
+.img{
+    /* border-radius: 30px; */
+    /* max-width: 1800px; */
     width: 100%;
-    height: 975px;
-    object-fit: cover;
+    /* height: 975px; */
+    height: clamp(775px, 78vw, 975px);
+    /* object-fit: cover; */
     display: block;
     margin: 0 auto;
+    object-fit: cover;
     object-position: center bottom;
 }
 .hero .content{
@@ -25,13 +27,13 @@
       z-index: 1;
 }
 .h1{
-    font-size: 80px;
+    font-size: clamp(32px, 6.4vw, 80px);
     font-weight: 500;
     padding-bottom: 24px;
     color: #373434;
 }
 h2{
-    font-size: 32px;
+    font-size: clamp(24px, 2.5vw, 32px);
     font-weight: 400;
     padding-bottom: 62px;
     color: #373434;
@@ -41,12 +43,12 @@ h2{
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    height: 68px;
-    width: 355px;
+    height: clamp(55px, 5.3vw, 68px);
+    width: clamp(253px, 27vw, 355px);
     border-radius: 30px;
     /* background-color: #373434; */
     background-color: #217526;
-    font-size: 26px;
+    font-size: clamp(20px, 2vw, 26px);
     font-weight: 700;
 }
 .btn a{
@@ -61,7 +63,7 @@ h2{
 /* media */
 @media (max-width: 1240px) {
   /* адаптация под ноутбуки */
-  .h1{
+  /* .h1{
     font-size: 70px;
     margin: 30px;
   }
@@ -76,8 +78,14 @@ h2{
   }
   .btn a{
     font-size: 22px;
-  }
+  } */
 
+}
+@media (min-width: 1281px) {
+  /* адаптация под ноутбуки */
+  /* .img{
+    object-fit: cover;
+  } */
 }
 @media (max-width: 1199px) {
   /* адаптация под ноутбуки */

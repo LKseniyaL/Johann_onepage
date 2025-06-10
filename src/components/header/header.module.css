@@ -8,12 +8,13 @@
 .logo img{
     margin-top: 35px;
     margin-bottom: 24px;
-    width: 191px;
-    height: 68px;
+    /* width: 191px; */
+    width: clamp(163px, 14vw, 191px);
+    height: auto;
 }
 .nav ul{
     display: flex;
-    gap: 38px;
+    gap: clamp(20px, 2.9vw, 38px);
     margin-top: 51px;
     margin-bottom: 50px;
 }
@@ -34,9 +35,9 @@
 /* media */
 @media (max-width: 1240px) {
   /* адаптация под ноутбуки */
-  .container{
+  /* .container{
     padding-right: 60px;
-  }
+  } */
 }
 
 @media (max-width: 1199px) {

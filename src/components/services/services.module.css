@@ -5,12 +5,13 @@
 .titleBlock {
   display: flex;
   align-items: center;
-  gap: 301px;
+  gap: clamp(100px, 23vw, 301px);
+  /* gap: 301px; */
   margin-bottom: 99px;
 }
 
 .title {
-  font-size: 80px;
+  font-size: clamp(32px, 6.4vw, 80px);
   font-weight: 500;
   color: #373434;
 }
@@ -23,7 +24,7 @@
 .infoBlocks {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  column-gap: 150px;
+  column-gap: clamp(60px, 11vw, 150px);
   row-gap: 28px;
   justify-content: center;
 }
@@ -34,8 +35,9 @@
   justify-content: space-between;
   flex-direction: column;
   padding: 28px;
-  width: 537px;
-  height: 486px;
+  max-width: 537px;
+  height: auto;
+  /* height: clamp(3.7vw, 486px); */
   background-color: #F6F6F6;
   border-radius: 30px;
 }
@@ -48,7 +50,7 @@
 }
 
 .cardTitle {
-  font-size: 32px;
+  font-size: clamp(20px, 2.5vw, 32px);
   font-weight: 500;
 }
 
@@ -58,27 +60,49 @@
 
 .bild {
   width: 100%;
+  max-width: 481px;
   height: auto;
+}
+.images{
+  width: 100%;
 }
 
 .iconArrow img:hover {
   width: 37px;
   height: 37px;
 }
-
 .controls {
+  display: flex;
+  gap: 12px;
+  flex-shrink: 0;
+}
+.controls img {
+  width: 32px;
+  height: 32px;
+}
+
+
+/* .controls {
   display: flex;
   justify-content: flex-end;
   gap: 12px;    
   cursor: pointer;
-}
+} */
 
-.progressBarContainer {
+/* .progressBarContainer {
   height: 4px;
   width: 100%;
   background-color: #ddd;
   border-radius: 2px;
   overflow: hidden;
+} */
+.progressBarContainer {
+  flex: 1 1 auto;              /* растягивается по ширине */
+  height: 4px;
+  background-color: #ddd;
+  border-radius: 2px;
+  overflow: hidden;
+  min-width: 200px;            /* чтобы не сжался совсем */
 }
 
 .progressBarFill {
@@ -86,12 +110,26 @@
   background-color: #217526;
   transition: width 0.4s ease;
 }
-.blockPregress{
+/* .blockPregress{
     display: flex;
     gap: 24px;
     justify-content: center;
     align-items: center;
     margin-top: 28px;
+} */
+ .blockPregress {
+  display: flex;
+  flex-wrap: wrap;              /* позволяет перенос кнопок вниз */
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  max-width: 1280px;
+  margin: 28px auto 0;          /* центрирование */
+  padding: 0 20px;              /* боковые отступы */
+}
+.btn{
+  margin-left: 10px;
 }
 .btn a{
   cursor: pointer;
@@ -105,7 +143,7 @@
 /* media */
 @media (max-width: 1240px) {
   /* адаптация под ноутбуки */
-  .title{
+  /* .title{
     font-size: 70px;
     margin-left: 40px;
   }
@@ -122,15 +160,46 @@
   .titleBlock{
     gap: 180px;
     justify-content: space-between;
-  }
-  .blockPregress{
+  } */
+  /* .blockPregress{
     width: 1100px;
     margin-left: 40px;
-  }
+  } */
 }
 
 @media (max-width: 1199px) {
   /* адаптация под ноутбуки */
+  /* .blockPregress{
+    margin-left: 80px;
+    width: 1000px;
+  } */
+  /* .images{
+    width: 100%;
+    max-width: 390px;
+    min-width: 250px;
+    /* height: 245px; */
+    /* height: auto;
+  }
+  .infoBlock{
+    width: 443px;
+    height: 406px;
+  } */ 
+  /* .infoBlocks{
+    grid-template-columns: repeat(2, 443px);
+    column-gap: clamp(40px, 15vw, 140px);
+  } */
+   /* .infoBlocks {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(250px, 443px));
+    column-gap: clamp(40px, 5vw, 140px);
+}
+  .cardTitle{
+    font-size: 26px;
+  }
+  .subtitle{
+    width: 400px;
+    margin-right: 80px;
+  } */
 }
 
 @media (max-width: 991px) {
