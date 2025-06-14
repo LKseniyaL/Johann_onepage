@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Johann_onepage/static/css/main.61f04662.css",
-    "main.js": "/Johann_onepage/static/js/main.9fe84a9c.js",
+    "main.js": "/Johann_onepage/static/js/main.0f3d8523.js",
     "static/media/neu_backgraund.png": "/Johann_onepage/static/media/neu_backgraund.76a64ef29337af9cb48b.png",
     "static/media/backgraug.png": "/Johann_onepage/static/media/backgraug.b6280da5efc2c5556701.png",
     "static/media/audi.png": "/Johann_onepage/static/media/audi.e5dda89c99d7349e4fe3.png",
@@ -17,10 +17,10 @@
     "static/media/mobile.jpeg": "/Johann_onepage/static/media/mobile.e04c0b155b93bf2547d5.jpeg",
     "index.html": "/Johann_onepage/index.html",
     "main.61f04662.css.map": "/Johann_onepage/static/css/main.61f04662.css.map",
-    "main.9fe84a9c.js.map": "/Johann_onepage/static/js/main.9fe84a9c.js.map"
+    "main.0f3d8523.js.map": "/Johann_onepage/static/js/main.0f3d8523.js.map"
   },
   "entrypoints": [
     "static/css/main.61f04662.css",
-    "static/js/main.9fe84a9c.js"
+    "static/js/main.0f3d8523.js"
   ]
 }
