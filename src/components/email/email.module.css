@@ -73,45 +73,56 @@ textarea::placeholder {
 /* media */
 @media (max-width: 1240px) {
   /* адаптация под ноутбуки */
-  /* form{
-    width: 550px;
-    height: 514px;
-  }
-  .name{
-    width: 490px;
-    height: 40px;
-    margin-bottom: 25px;
-  }
-  .email{
-    width: 240px;
-    height: 40px;
-    margin-bottom: 25px;
-  }
-  .tel{
-    width: 240px;
-    height: 40px;
-    margin-bottom: 25px;
-  }
-  .email{
-    margin-right: 10px;
-  }
-  textarea{
-    width: 490px;
-    height: 140px;
-  }
-  .btn{
-    width: 490px;
-    height: 40px;
-    font-size: 14px;
-  } */
   .subTitel{
     font-size: 12px;
     margin-top: 80px;
   }
 }
+@media (max-width: 850px) {
+  form{
+    max-width: none;
+    height: 100%;
+  }
+  .name{
+    max-width: none;
+    max-height: none;
+    height: clamp(36px, 7vw, 60px);
+    margin-bottom: clamp(20px, 5vw, 43px);
+  }
+  .email, .tel{
+    /* width: clamp(150px, 38vw, 325px); */
+    width: 48%;
+    height: clamp(36px, 7vw, 60px);
+    margin-bottom: clamp(20px, 5vw, 43px);
+    max-height: none;
+    max-width: none;
+  }
+  input::placeholder,
+  textarea::placeholder{
+    font-size: clamp(14px, 3.5vw, 30px);
+  }
+  textarea{
+    height: clamp(106px, 23vw, 200px);
+    max-width: none;
+    margin-bottom: clamp(24px, 4.7vw, 40px);
+  }
+  .btn{
+    max-width: none;
+    max-height: none;
+    min-height: 36px;
+    height: clamp(36px, 7vw, 60px);
+    font-size: clamp(16px, 2.8vw, 24px);
+  }
+}
 
-@media (max-width: 1199px) {
+@media (max-width: 620px) {
   /* адаптация под ноутбуки */
+  .subTitel{
+    display: none;
+  }
+  form{
+    padding: 18px;
+  }
 }
 
 @media (max-width: 991px) {

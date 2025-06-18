@@ -5,7 +5,12 @@ footer{
     padding-right: 28px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 100px 28px 28px 28px;
+}
+.icons{
+  display: flex;
+  align-items: center;
 }
 .mobile{
     height: 50px;
@@ -19,22 +24,37 @@ footer{
 @media (max-width: 1240px) {
   /* адаптация под ноутбуки */
   .mobile{
-    height: 42px;
+    height: auto;
   }
 }
-
-@media (max-width: 1199px) {
-  /* адаптация под ноутбуки */
+@media (max-width: 700px) {
+  .mobile{
+    height: auto;
+    width: 100px;
+  }
+  .whatsapp{
+    height: auto;
+    width: 25px;
+  }
+  .adresse{
+    font-size: 16px;
+  }
+  .logo{
+    height: auto;
+    width: 100px;
+  }
 }
-
-@media (max-width: 991px) {
-  /* планшеты */
-}
-
-@media (max-width: 767px) {
-  /* телефоны */
-}
-
-@media (max-width: 480px) {
-  /* очень маленькие телефоны */
+@media (max-width: 500px) {
+  footer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 40px;
+  }
+  .adresse{
+    font-size: 16px;
+  }
+  .logo{
+    width: 140px;
+  }
 }

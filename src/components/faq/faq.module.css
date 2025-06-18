@@ -21,7 +21,7 @@
 }
 .audi{
     height: clamp(200px, 27.5vw, 352px);
-    width: clamp(600px, 59vw, 760px);
+    width: clamp(350px, 59vw, 760px);
     position: absolute;
     left: 0%;
     top: 50%;
@@ -97,38 +97,31 @@
 
 
 /* media */
-@media (max-width: 1240px) {
+@media (max-width: 850px) {
   /* адаптация под ноутбуки */
-  /* .title{
-    font-size: 70px;
-    margin-left: 40px;
-  } */
-  /* .faqContainer{
-    margin-right: 40px;
-    margin-top: 20px;
+    .title{
+    font-size: clamp(32px, 8.1vw, 69px);
   }
-  .question {
-    width: 550px;
-    height: 60px;
+}
+@media (max-width: 500px) {
+  .faq{
+    padding-top: 50px;
   }
-  .answer {
-    width: 550px;
-    padding: 24px;
-} */
+  .title{
+    padding-bottom: 25px;
+  }
+  .audi{
+    margin-top: 25px;
+  }
+    .faqContainer{
+    padding: 0 25px;
+  }
 }
-
-@media (max-width: 1199px) {
-  /* адаптация под ноутбуки */
-}
-
-@media (max-width: 991px) {
-  /* планшеты */
-}
-
-@media (max-width: 767px) {
-  /* телефоны */
-}
-
-@media (max-width: 480px) {
-  /* очень маленькие телефоны */
+@media (max-width: 700px) {
+  .audi{
+    top: 60%;
+  }
+  .title{
+    padding-top: 50px;
+  }
 }

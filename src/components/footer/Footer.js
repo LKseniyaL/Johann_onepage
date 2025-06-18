@@ -15,7 +15,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer">
           
-            <img src={w} alt="whatsapp" />
+            <img src={w} alt="whatsapp" className={s.whatsapp}/>
             </a>
 
           <a href="https://home.mobile.de/JGCARSELECT#ses" 

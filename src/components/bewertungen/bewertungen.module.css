@@ -4,7 +4,7 @@
     .title{
         font-size: clamp(32px, 6.4vw, 80px);
         font-weight: 500;
-        margin-bottom: 100px;
+        margin-bottom: clamp(50px, 7.7vw, 99px);
         color: #373434;    
     }
     .blockReviews{
@@ -23,8 +23,6 @@
     .itemReviewsBlock{
         display: flex;
         gap: clamp(35px, 4.2vw, 55px);
-        /* justify-content: center; */
-        /* align-items: center; */
     }
     .itemReviews{
         width: 50%;
@@ -38,11 +36,6 @@
       width: clamp(236px, 23vw, 302px);
       height: auto;
     }
-    /* .foto img{
-      width: 100%;
-      height: auto;
-      object-fit: cover;
-    } */
     .text{
         font-size: clamp(24px, 2.1vw, 28px);
         font-weight: 300;
@@ -73,16 +66,77 @@
 
 
 /* media */
-@media (max-width: 1240px) {
+@media (max-width: 850px) {
   /* адаптация под ноутбуки */
-  /* .title{
-    font-size: 70px;
-    margin-left: 40px;
-  } */
+    .title{
+    font-size: clamp(32px, 8.1vw, 69px);
+  }
+  .itemReviews{
+    width: 100%;
+  }
+    .blockReviews {
+    min-height: clamp(356px, 34vw, 447px); /* вместо height */
+    display: flex;
+  }
+  .blockReviews{
+    display: flex;
+    align-items: center;
+    padding-right: clamp(18px, 4vw, 34px);
+    /* padding-left: 0; */
+  }
+  .text{
+    max-width: 400px;
+  }
+  .fotoAndText{
+    display: flex;
+    align-items: center;
+    /* gap: 50px; */
+  }
+  .bthBlock{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+  }
+  .reviews{
+    padding-bottom: 100px;
+  }
 }
 
-@media (max-width: 1199px) {
-  /* адаптация под ноутбуки */
+@media (max-width: 480px) {
+  .bthBlock{
+    display: none;
+  }
+  .fotoAndText{
+    display: flex;
+    flex-direction: column;
+  }
+  .blockReviews{
+    min-height: 540px;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+.itemReviewsBlock {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  width: 100%;
+}
+  .itemReviewsBlock::-webkit-scrollbar {
+    display: none;
+  }
+
+  .itemReviews {
+    padding: 20px;
+    scroll-snap-align: start;
+    flex: 0 0 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
 }
 
 @media (max-width: 991px) {

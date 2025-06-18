@@ -24,9 +24,9 @@ export default function Kontakt() {
                         <img src={phone} alt="Telefon" />
                         <div className={s.text}>Rufen Sie mich an:</div>
                     </div>
-                    <div className={s.telNummer}>+49 176 344 15 895</div>
+                    <div className={s.telNummer}><a href="tel:+4917673568991">+49 176 344 15 895</a></div>
                 </div>
-
+                <div className={s.btn}><a href="tel:+4917673568991">Jetzt anrufen</a></div>
                     {/* WhatsApp anfang */}
                     <div className={s.whatsApp}>
                         <a

@@ -7,7 +7,7 @@
   align-items: center;
   gap: clamp(100px, 23vw, 301px);
   /* gap: 301px; */
-  margin-bottom: 99px;
+  margin-bottom: clamp(50px, 7.7vw, 99px);
 }
 
 .title {
@@ -57,7 +57,6 @@
 .iconArrow img {
   cursor: pointer;
 }
-
 .bild {
   width: 100%;
   max-width: 481px;
@@ -80,22 +79,6 @@
   width: 32px;
   height: 32px;
 }
-
-
-/* .controls {
-  display: flex;
-  justify-content: flex-end;
-  gap: 12px;    
-  cursor: pointer;
-} */
-
-/* .progressBarContainer {
-  height: 4px;
-  width: 100%;
-  background-color: #ddd;
-  border-radius: 2px;
-  overflow: hidden;
-} */
 .progressBarContainer {
   flex: 1 1 auto;              /* растягивается по ширине */
   height: 4px;
@@ -104,7 +87,6 @@
   overflow: hidden;
   min-width: 200px;            /* чтобы не сжался совсем */
 }
-
 .progressBarFill {
   height: 100%;
   background-color: #217526;
@@ -139,67 +121,69 @@
   height: 37px;
 }
 
+/* слайдер для моб версии */
+
+.infoBlocksWrapper {
+  overflow-x: hidden;
+}
+
 
 /* media */
-@media (max-width: 1240px) {
+@media (max-width: 850px) {
   /* адаптация под ноутбуки */
-  /* .title{
-    font-size: 70px;
-    margin-left: 40px;
+  .titleBlock{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: clamp(24px, 6vw, 52px);
+  }
+  .title{
+    font-size: clamp(32px, 8.1vw, 69px);
+  }
+  .subtitle{
+    font-size: clamp(24px, 6.1vw, 52px);
   }
   .infoBlocks{
-    column-gap: 30px;
-    grid-template-columns: repeat(2, 537px);
-  }
-  .infoTeil{
-
-  }
-  .subtitle{
-    width: 530px;
-  }
-  .titleBlock{
-    gap: 180px;
-    justify-content: space-between;
-  } */
-  /* .blockPregress{
-    width: 1100px;
-    margin-left: 40px;
-  } */
-}
-
-@media (max-width: 1199px) {
-  /* адаптация под ноутбуки */
-  /* .blockPregress{
-    margin-left: 80px;
-    width: 1000px;
-  } */
-  /* .images{
-    width: 100%;
-    max-width: 390px;
-    min-width: 250px;
-    /* height: 245px; */
-    /* height: auto;
+    grid-template-columns: none;
   }
   .infoBlock{
-    width: 443px;
-    height: 406px;
-  } */ 
-  /* .infoBlocks{
-    grid-template-columns: repeat(2, 443px);
-    column-gap: clamp(40px, 15vw, 140px);
-  } */
-   /* .infoBlocks {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(250px, 443px));
-    column-gap: clamp(40px, 5vw, 140px);
-}
-  .cardTitle{
-    font-size: 26px;
+    width: clamp(345px, 88vw, 748px);
+    height: auto;
+    /* height: clamp(309px, 78vh, 670px); */
   }
-  .subtitle{
-    width: 400px;
-    margin-right: 80px;
-  } */
+  .cardTitle{
+    font-size: clamp(20px,5.05vw, 43px);
+  }
+}
+
+@media (max-width: 500px) {
+  .blockPregress{
+    /* display: none; */
+  }
+  .infoBlocksWrapper {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .infoBlocks {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+  }
+
+  .infoBlock {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    /* box-sizing: border-box; */
+  }
+
+  .controls {
+    display: none;
+  }
+}
+@media (max-width: 1199px) {
+
 }
 
 @media (max-width: 991px) {

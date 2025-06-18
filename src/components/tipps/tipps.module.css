@@ -78,22 +78,33 @@
 }
 
 /* media */
-@media (max-width: 1240px) {
+@media (max-width: 850px) {
   /* адаптация под ноутбуки */
-  /* .title{
-    font-size: 70px;
-    margin-left: 40px;
+    .title{
+    font-size: clamp(32px, 8.1vw, 69px);
   }
-  .subTitle{
-    font-size: 22px;
+    .subTitle{
+    font-size: clamp(24px, 6.1vw, 52px);
+    max-width: none;
     margin-top: 0;
   }
   .titleBlock{
-    padding-bottom: 100px;
-  } */
-  /* .cardsBlock{
-    gap: 20px;
-  } */
+    flex-direction: column;
+    gap: clamp(24px, 6vw, 52px);
+    padding-bottom: 60px;
+  }
+  .imageWrapper{
+    height: auto;
+  }
+  .image{
+    width: 100%;
+  }
+  .answer{
+    max-width: none;
+    height: clamp(211px, 25vh, 350px);
+    border-radius: 30px;
+    align-items: center;
+  }
 }
 
 @media (max-width: 1199px) {

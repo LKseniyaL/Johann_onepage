@@ -7,7 +7,7 @@ export default function Header() {
     <div className={s.container} id='home'>
       <div className={s.logo}>
         <img src={logo} alt="Firmenlogo" />
-      </div>
+      </div> 
       <nav className={s.nav}>
         <ul>
           <li><a href="#home">Startseite</a></li>
