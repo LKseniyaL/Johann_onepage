@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Johann_onepage/static/css/main.7a76d3f2.css",
-    "main.js": "/Johann_onepage/static/js/main.24aa4074.js",
+    "main.css": "/Johann_onepage/static/css/main.6ae00f53.css",
+    "main.js": "/Johann_onepage/static/js/main.11e74984.js",
     "static/media/neu_backgraund.png": "/Johann_onepage/static/media/neu_backgraund.76a64ef29337af9cb48b.png",
     "static/media/backgraug.png": "/Johann_onepage/static/media/backgraug.b6280da5efc2c5556701.png",
     "static/media/audi.png": "/Johann_onepage/static/media/audi.e5dda89c99d7349e4fe3.png",
@@ -17,11 +17,11 @@
     "static/media/adaptin_backgraund.png": "/Johann_onepage/static/media/adaptin_backgraund.50346b22d8b0f3d65f90.png",
     "static/media/mobile.jpeg": "/Johann_onepage/static/media/mobile.e04c0b155b93bf2547d5.jpeg",
     "index.html": "/Johann_onepage/index.html",
-    "main.7a76d3f2.css.map": "/Johann_onepage/static/css/main.7a76d3f2.css.map",
-    "main.24aa4074.js.map": "/Johann_onepage/static/js/main.24aa4074.js.map"
+    "main.6ae00f53.css.map": "/Johann_onepage/static/css/main.6ae00f53.css.map",
+    "main.11e74984.js.map": "/Johann_onepage/static/js/main.11e74984.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a76d3f2.css",
-    "static/js/main.24aa4074.js"
+    "static/css/main.6ae00f53.css",
+    "static/js/main.11e74984.js"
   ]
 }
