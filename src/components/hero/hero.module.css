@@ -65,6 +65,9 @@ h2{
 
 /* media */
 @media (max-width: 850px) {
+  .hero .btn:hover{
+    font-size: clamp(20px, 2vw, 26px);
+}
   .img{
     display: none !important;
     position: relative;
@@ -110,26 +113,14 @@ h2{
   .h1{
     padding-top: clamp(62px, 15.7vw, 135px);
   }
-  /*
-  h2{
-    font-size: 30px;
-    padding-left: 30px;
-    margin-bottom: 20px;
-  }
-  .btn{
-    margin-left: 30px;
-    font-size: 22px;
-  }
-  .btn a{
-    font-size: 22px;
-  } */
-
 }
-@media (min-width: 1281px) {
-  /* адаптация под ноутбуки */
-  /* .img{
-    object-fit: cover;
-  } */
+@media (max-width: 750px) {
+  .back_oben{
+    /* height: 100vh; */
+  }
+  .back_unten{
+    object-fit: contain;
+  }
 }
 @media (max-width: 1199px) {
   /* адаптация под ноутбуки */

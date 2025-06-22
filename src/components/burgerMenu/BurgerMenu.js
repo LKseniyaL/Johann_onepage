@@ -20,8 +20,8 @@ export default function BurgerMenu() {
 
   return (
     <div className={styles.wrapper}>
-      <div className={styles.logo}> <img src={logo} alt="Logotip" /></div>
-      <div className={styles.burger} onClick={toggleMenu}>
+      <div className={`${styles.logo} ${styles.logoAnimated}`}> <img src={logo} alt="Logotip" /></div>
+      <div className={`${styles.burger} ${styles.burgerAnimated}`} onClick={toggleMenu}>
         <span />
         <span />
         <span />

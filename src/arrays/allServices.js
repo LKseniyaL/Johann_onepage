@@ -7,13 +7,13 @@ import servisBild6 from '../assets/images/servisBild2.png';
 import servisBild7 from '../assets/images/servisBild3.png';
 import servisBild8 from '../assets/images/servisBild4.png';
 import arrow from '../assets/images/Group 338.png';
+import garanti from '../assets/images/garanti.png';
+import zulassung from '../assets/images/zulassungsdindt.png';
+import gewärleistung from '../assets/images/gewärleistung.png';
+import inzahlungs from '../assets/images/inzahlungsnamen.png';
+import finansirungen from '../assets/images/finansiren.png'
 
 const allServices = [
-  {
-    title: 'Zusatzgarantien für mehr Sicherheit',
-    image: servisBild5,
-    btn: arrow
-  },
   {
     title: 'Geprüfte und getestete Gebrauchtfahrzeuge',
     image: servisBild1
@@ -24,7 +24,7 @@ const allServices = [
   },
   {
     title: 'Bundesweiter Zulassungsdienst',
-    image: servisBild3
+    image: zulassung
   },
   {
     title: 'Bundesweite Anlieferung',
@@ -32,15 +32,20 @@ const allServices = [
   },
   {
     title: '12 Monate Gewährleistung auf Bestandsfahrzeuge',
-    image: servisBild6
+    image: gewärleistung
   },
   {
     title: 'Inzahlungnahmen zu fairen Preisen',
-    image: servisBild7
+    image: inzahlungs
   },
   {
     title: 'Finanzierungen zu bestmöglichen Zinssätzen',
-    image: servisBild8
+    image: finansirungen
+  },
+  {
+    title: 'Zusatzgarantien für mehr Sicherheit',
+    image: garanti,
+    btn: arrow
   },
 ];
 

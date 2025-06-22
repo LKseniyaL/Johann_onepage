@@ -1,5 +1,5 @@
 .wrapper {
-    display: flex;
+    display: none;
     width: 100%;
     max-width: 850px;
     justify-content: space-between;
@@ -20,7 +20,7 @@
 }
 
 .burger {
-  display: none;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 28px;
@@ -67,8 +67,44 @@ ul a{
   color: #F6F6F6;
 }
 
+@keyframes slideLogoIn {
+  0% {
+    transform: translateX(100vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes dropAndBounce {
+  0% {
+    transform: translateY(-80px);
+    opacity: 0;
+  }
+  60% {
+    transform: translateY(10px);
+    opacity: 1;
+  }
+  80% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.logoAnimated {
+  animation: slideLogoIn 0.9s ease-out forwards;
+}
+
+.burgerAnimated {
+  animation: dropAndBounce 0.8s ease-out forwards;
+}
+
 @media (max-width: 850px) {
-  .burger {
+  .wrapper {
     display: flex;
   }
 }
