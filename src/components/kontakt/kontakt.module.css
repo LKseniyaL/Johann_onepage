@@ -29,16 +29,12 @@
     flex-direction: column;
     justify-content: center;
     gap: 40px;
-    /* align-items: center; */
     margin-bottom: 28px;
-    /* margin-left: 20px; */
     padding: 28px;
     border-radius: 34px;
     width: 100%;
     max-width: 491px;
     height: clamp(100px, 21vw, 280px);
-    /* height: 280px;
-    height: auto; */
     background-color: #299230;
 }
 .telBlock a{
@@ -50,7 +46,6 @@
 .frageBlock{
   width: 100%;
   max-width: 624px;
-  /* padding: 0 20px; */
   margin: 0 auto;
 }
 .whatsApp a{
@@ -59,13 +54,11 @@
     gap: 8px;
 }
 .whatsAppText{
-    /* font-size: 24px; */
     font-size: clamp(18px, 1.8vw, 24px);
     font-weight: 400;
     color: #F6F6F6;
 }
 .telNummer{
-    /* font-size: 48px; */
     font-size: clamp(18px, 3.5vw, 48px);
     font-weight: 500;
     white-space: nowrap;
@@ -78,7 +71,6 @@
 .block2{
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     gap: 30px;
 }
 .tel .text{
@@ -88,7 +80,6 @@
 .tel{
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     gap: 10px;
 }
 
@@ -97,12 +88,9 @@
     display: flex;
     flex-direction: column;
     gap: 35px;
-    /* justify-content: space-between; */
     padding: 28px 28px 50px;
     width: 100%;
     max-width: 491px;
-    /* height: 280px; */
-    /* height: auto; */
     height: clamp(100px, 21vw, 280px);
     border-radius: 34px;
     background-color: #F6F6F6;
@@ -113,9 +101,6 @@
     gap: 8px;
     text-decoration: none;
 }
-/* .imgBlock{
-    padding-bottom: 46px;
-} */
 .imgBlock .text{
     font-size: 20px;
     font-weight: 400;
@@ -123,7 +108,6 @@
 }
 .adresseText{
     font-size: clamp(26px, 3vw, 40px);
-    /* font-size: 40px; */
     font-weight: 500;
     color: #373434;
 }
@@ -222,26 +206,5 @@
   .frageBlock{
     max-width: none;
     width: clamp(345px, 88vw, 748px);
-    height: clamp(330px, 80vw, 680px);
   }
-}
-
-
-@media (max-width: 1199px) {
-  /* адаптация под ноутбуки */
-  /* .kontaktInfoBlock{
-    gap: 50px;
-  } */
-}
-
-@media (max-width: 991px) {
-  /* планшеты */
-}
-
-@media (max-width: 767px) {
-  /* телефоны */
-}
-
-@media (max-width: 480px) {
-  /* очень маленькие телефоны */
 }

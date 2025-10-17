@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import s from '../components/hero/hero.module.css'
 
 const TypewriterHeader = () => {
-  const fullText = 'Fahrzeuge, denen Sie vertrauen können – mit geprüfter Geschichte';
+  const fullText = 'Geprüfte Fahrzeuge und erstklassiger Service kombiniert.';
   const [displayedText, setDisplayedText] = useState('');
   const [index, setIndex] = useState(0);
   const [showRest, setShowRest] = useState(false); // флаг для показа h2 и кнопки
@@ -28,7 +28,7 @@ const TypewriterHeader = () => {
 
       {showRest && (
         <>
-          <h2>Autos für Menschen, die Ehrlichkeit und Qualität schätzen</h2>
+          <h2>Fahrzeuge für Menschen, denen Qualität und Ehrlichkeit am Herzen liegt</h2>
           <div className={s.btn}>
             <a href="https://home.mobile.de/JGCARSELECT#ses" 
                target="_blank" 

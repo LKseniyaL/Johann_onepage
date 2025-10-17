@@ -24,13 +24,13 @@ export default function Kontakt() {
                         <img src={phone} alt="Telefon" />
                         <div className={s.text}>Rufen Sie mich an:</div>
                     </div>
-                    <div className={s.telNummer}><a href="tel:+4917673568991">+49 176 344 15 895</a></div>
+                    <div className={s.telNummer}><a href="tel:+4915560494709">+49 155 604 94 709</a></div>
                 </div>
-                <div className={s.btn}><a href="tel:+4917673568991">Jetzt anrufen</a></div>
+                <div className={s.btn}><a href="tel:+4915560494709">Jetzt anrufen</a></div>
                     {/* WhatsApp anfang */}
                     <div className={s.whatsApp}>
                         <a
-                            href="https://wa.me/4917673568991"
+                            href="https://wa.me/4915560494709"
                             target="_blank"
                             rel="noopener noreferrer">
                             <img src={whatsApp} alt="WhatsApp" />
@@ -55,7 +55,6 @@ export default function Kontakt() {
                     <div className={s.adresseText}>
                         Brönninghauser Str. 41 <br/>33729 Bielefeld
                     </div>
-                    {/* <div className={s.öffnungszeiten}>Öffnungszeiten</div> */}
                 </div>
                 {/* end */}
             </div>

@@ -3,14 +3,24 @@ footer{
     max-width: 1280px;
     padding-left: 28px;
     padding-right: 28px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 100px 28px 28px 28px;
+}
+.footerBlock{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footerBlockInfo{
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 .icons{
   display: flex;
   align-items: center;
+  justify-content: center;
+  gap: 40px;
 }
 .mobile{
     height: 50px;
@@ -18,8 +28,17 @@ footer{
     margin-left: 20px;
     cursor: pointer; 
 }
-
-
+.info{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.impressum a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 22px;
+    cursor: pointer;
+}
 /* media */
 @media (max-width: 1240px) {
   /* адаптация под ноутбуки */
@@ -27,34 +46,63 @@ footer{
     height: auto;
   }
 }
+@media (max-width: 1130px) {
+  footer{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  }
+}
+@media (max-width: 950px) {
+  .footerBlock{
+    flex-direction: column;
+    gap: 40px;
+  }
+  .logo{
+    height: auto;
+    width: 300px;
+  }
+}
+
 @media (max-width: 700px) {
   .mobile{
     height: auto;
-    width: 100px;
+    width: 150px;
   }
   .whatsapp{
     height: auto;
-    width: 25px;
+    width: 40px;
   }
   .adresse{
-    font-size: 16px;
+    font-size: 22px;
   }
   .logo{
     height: auto;
-    width: 100px;
+    width: 250px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   footer{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 50px;
     padding-top: 40px;
+    padding-bottom: 40px;
   }
   .adresse{
-    font-size: 16px;
+    font-size: 22px;
+    text-align: center;
   }
-  .logo{
-    width: 140px;
+  .info{
+    flex-direction: column;
+    gap: 40px;
+  }
+  .icons{
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  .footerBlockInfo{
+    gap: 40px;
   }
 }

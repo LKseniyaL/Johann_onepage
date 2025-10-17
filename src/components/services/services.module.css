@@ -6,7 +6,6 @@
   display: flex;
   align-items: center;
   gap: clamp(100px, 23vw, 301px);
-  /* gap: 301px; */
   margin-bottom: clamp(30px, 7.7vw, 99px);
 }
 
@@ -37,7 +36,6 @@
   padding: 28px;
   max-width: 537px;
   height: auto;
-  /* height: clamp(3.7vw, 486px); */
   background-color: #F6F6F6;
   border-radius: 30px;
 }
@@ -60,12 +58,16 @@
 .bild {
   width: 100%;
   max-width: 481px;
-  height: auto;
 }
 .images{
   width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  object-fit: cover;
 }
-
+.zulassung{
+  height: 100%;
+}
 .iconArrow img:hover {
   width: 37px;
   height: 37px;
@@ -92,13 +94,6 @@
   background-color: #217526;
   transition: width 0.4s ease;
 }
-/* .blockPregress{
-    display: flex;
-    gap: 24px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 28px;
-} */
  .blockPregress {
   display: flex;
   flex-wrap: wrap;              /* позволяет перенос кнопок вниз */
@@ -148,7 +143,6 @@
   .infoBlock{
     width: clamp(345px, 88vw, 748px);
     height: auto;
-    /* height: clamp(309px, 78vh, 670px); */
   }
   .cardTitle{
     font-size: clamp(20px,5.05vw, 43px);
@@ -156,9 +150,6 @@
 }
 
 @media (max-width: 500px) {
-  .blockPregress{
-    /* display: none; */
-  }
   .infoBlocksWrapper {
     overflow-x: auto;
     scroll-snap-type: x mandatory;
@@ -175,25 +166,13 @@
   .infoBlock {
     scroll-snap-align: start;
     scroll-snap-stop: always;
-    /* box-sizing: border-box; */
   }
-
   .controls {
     display: none;
   }
 }
-@media (max-width: 1199px) {
-
-}
-
-@media (max-width: 991px) {
-  /* планшеты */
-}
-
-@media (max-width: 767px) {
-  /* телефоны */
-}
-
-@media (max-width: 480px) {
-  /* очень маленькие телефоны */
+@media (max-width: 375px) {
+  .infoBlock{
+    width: 320px;
+  }
 }

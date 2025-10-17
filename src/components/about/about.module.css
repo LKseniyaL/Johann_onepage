@@ -78,13 +78,11 @@
   }
   .fotoAbout img{
     width: 100%;
-    /* height: clamp(367px, 93vh, 795px); */
     height: auto;
     position: sticky;
     z-index: 10;
   }
   .textAbout{
-    /* font-size: clamp(24px, 6vw, 52px); */
     font-size: 40px;
     max-width: none;
   }
@@ -96,7 +94,6 @@
     font-weight: 500;
   }
   .unterFotoChef{
-    /* font-size: clamp(24px, 5vw, 43px); */
     font-size: 35px;
     padding-bottom: clamp(34px, 8.5vw, 73px);
   }
@@ -118,14 +115,3 @@
   }
 }
 
-@media (max-width: 991px) {
-  /* планшеты */
-}
-
-@media (max-width: 767px) {
-  /* телефоны */
-}
-
-@media (max-width: 480px) {
-  /* очень маленькие телефоны */
-}

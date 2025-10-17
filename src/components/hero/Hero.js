@@ -18,9 +18,6 @@ export default function Hero() {
         <div className={s.h1}>
         <TypewriterHeader/>
         </div>
-        {/* <h1>Fahrzeuge, denen Sie vertrauen können – mit geprüfter Geschichte</h1> */}
-        {/* <h2>Autos für Menschen, die Ehrlichkeit und Qualität schätzen</h2>
-        <div className={s.btn}>Jetzt Autos entdecken</div> */}
       </div>
     </main>
   )

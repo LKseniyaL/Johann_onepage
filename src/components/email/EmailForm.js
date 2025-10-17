@@ -16,11 +16,11 @@ export default function EmailForm() {
     
     {/* Anti-bot поле */}
         {/* <input type="hidden" name="_captcha" value="false" /> */}
-        <input type="hidden" name="_next" value="http://localhost:3000/danke.html" />
-
-    
+        <input type="hidden" name="_next" value='/danke.html' />    
         <button type="submit" className={s.btn}>Nachricht senden</button>
-        <div className={s.subTitel}>Ihre Daten werden sicher übertragen und nicht an Dritte weitergegeben.</div>
+        <div className={s.subTitel}>Mit dem Absenden des Formulars erkläre ich mich mit der Verarbeitung meiner Daten gemäß der 
+            <a href={`${process.env.PUBLIC_URL}/datenschutz.html`} target="_blank"> Datenschutzerklärung</a> einverstanden.
+        </div>
     </form>
 
   )

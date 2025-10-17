@@ -1,8 +1,6 @@
 form{
-    /* width: 624px; */
     max-width: 624px;
     width: 100%;
-    /* height: 588px; */
     height: auto;
     padding: 28px;
     border-radius: 34px;
@@ -14,9 +12,6 @@ form{
     max-height: 45px;
     min-height: 40px;
     margin-bottom: 40px;
-}
-.emailTelBlock{
-
 }
 .name, .email, .tel, textarea{
     padding: 10px;
@@ -33,9 +28,6 @@ form{
     max-height: 45px;
     min-height: 40px;
     margin-bottom: 40px;
-}
-.tel{
-
 }
 textarea{
     width: 100%;
@@ -59,14 +51,16 @@ textarea{
     font-size: 14px;
     color: #3734344D;
     margin-top: clamp(40px, 7vw, 94px);
-    /* margin-top: 120px; */
     text-align: center;
+}
+.subTitel a{
+  text-decoration: none;
+  color: #299230;
 }
 input::placeholder,
 textarea::placeholder {
     font-size: 14px;
     font-weight: 400;
-    color: #3734344D;
 }
 
 
@@ -80,8 +74,14 @@ textarea::placeholder {
 }
 @media (max-width: 850px) {
   form{
+    padding-top: 80px;
+    padding-bottom: 40px;
     max-width: none;
     height: 100%;
+  }
+    .subTitel{
+    font-size: 12px;
+    margin-top: 60px;
   }
   .name{
     max-width: none;
@@ -90,7 +90,6 @@ textarea::placeholder {
     margin-bottom: clamp(20px, 5vw, 43px);
   }
   .email, .tel{
-    /* width: clamp(150px, 38vw, 325px); */
     width: 48%;
     height: clamp(36px, 7vw, 60px);
     margin-bottom: clamp(20px, 5vw, 43px);
@@ -118,21 +117,10 @@ textarea::placeholder {
 @media (max-width: 620px) {
   /* адаптация под ноутбуки */
   .subTitel{
-    display: none;
+    margin-bottom: 20px;
+    margin-top: 40px;
   }
   form{
     padding: 18px;
   }
-}
-
-@media (max-width: 991px) {
-  /* планшеты */
-}
-
-@media (max-width: 767px) {
-  /* телефоны */
-}
-
-@media (max-width: 480px) {
-  /* очень маленькие телефоны */
 }

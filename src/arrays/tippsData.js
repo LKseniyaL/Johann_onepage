@@ -7,7 +7,7 @@ const tippsData = [
   {
     image: card1,
     title: 'Gebrauchtwagen kaufen – worauf Sie achten sollten, um keine böse Überraschung zu erleben',
-    answer: 'Achten Sie auf lückenloses Serviceheft, nachvollziehbare Fahrzeughistorie und lassen Sie das Auto vor dem Kauf bei einer Werkstatt prüfen.'
+    answer: 'Achten Sie auf Inspektionsnachweise, nachvollziehbare Fahrzeughistorie und lassen Sie das Auto nach Möglichkeit von einem unabhängigen Sachverständigen vor dem Kauf prüfen.'
   },
   {
     image: card2,

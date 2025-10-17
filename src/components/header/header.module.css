@@ -8,7 +8,6 @@
 .logo img{
     margin-top: 35px;
     margin-bottom: 24px;
-    /* width: 191px; */
     width: clamp(163px, 14vw, 191px);
     height: auto;
 }
@@ -31,32 +30,9 @@
     font-size: 19px;
 }
 
-
 /* media */
 @media (max-width: 850px){
   .container{
     display: none;
   }
-}
-@media (max-width: 1240px) {
-  /* адаптация под ноутбуки */
-  /* .container{
-    padding-right: 60px;
-  } */
-}
-
-@media (max-width: 1199px) {
-  /* адаптация под ноутбуки */
-}
-
-@media (max-width: 991px) {
-  /* планшеты */
-}
-
-@media (max-width: 767px) {
-  /* телефоны */
-}
-
-@media (max-width: 480px) {
-  /* очень маленькие телефоны */
 }

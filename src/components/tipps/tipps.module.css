@@ -24,7 +24,6 @@
 
 .cardsBlock {
   display: grid;
-  /* grid-template-columns: repeat(4, 1fr); */
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 43px;
 }
@@ -59,12 +58,10 @@
   width: 100%;
   max-width: 274px;
   height: 100%;
-  /* height: 240px; */
   font-size: 16px;
   color: #373434;
   padding: 18px;
   border-radius: 12px;
-  /* text-align: center; */
   line-height: 1.4;
   background-color: #f6f6f6;
 
@@ -106,34 +103,10 @@
     align-items: center;
   }
 }
-
-@media (max-width: 1199px) {
-  /* адаптация под ноутбуки */
-  /* .image{
-    width: 250px;
-    height: 220px;
-  }
-  .card{
-    width: 250px;
-
-  }
-  .text{
-    font-size: 18px;
-  }
+@media (max-width: 600px) {
   .cardsBlock{
-    grid-template-columns: repeat(4, 250px);
-    justify-content: center;
-  } */
-}
-
-@media (max-width: 991px) {
-  /* планшеты */
-}
-
-@media (max-width: 767px) {
-  /* телефоны */
-}
-
-@media (max-width: 480px) {
-  /* очень маленькие телефоны */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
 }

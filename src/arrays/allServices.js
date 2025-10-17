@@ -2,14 +2,9 @@ import servisBild1 from '../assets/images/servisBild1.png';
 import servisBild2 from '../assets/images/servisBild2.png';
 import servisBild3 from '../assets/images/servisBild3.png';
 import servisBild4 from '../assets/images/servisBild4.png';
-import servisBild5 from '../assets/images/servisBild1.png'; // Используй реальные картинки
-import servisBild6 from '../assets/images/servisBild2.png';
-import servisBild7 from '../assets/images/servisBild3.png';
-import servisBild8 from '../assets/images/servisBild4.png';
 import arrow from '../assets/images/Group 338.png';
 import garanti from '../assets/images/garanti.png';
 import zulassung from '../assets/images/zulassungsdindt.png';
-import gewärleistung from '../assets/images/gewärleistung.png';
 import inzahlungs from '../assets/images/inzahlungsnamen.png';
 import finansirungen from '../assets/images/finansiren.png'
 
@@ -24,7 +19,8 @@ const allServices = [
   },
   {
     title: 'Bundesweiter Zulassungsdienst',
-    image: zulassung
+    image: zulassung,
+    className: 'zulassung'
   },
   {
     title: 'Bundesweite Anlieferung',
@@ -32,7 +28,7 @@ const allServices = [
   },
   {
     title: '12 Monate Gewährleistung auf Bestandsfahrzeuge',
-    image: gewärleistung
+    image: servisBild3
   },
   {
     title: 'Inzahlungnahmen zu fairen Preisen',
