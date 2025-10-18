@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import s from '../components/hero/hero.module.css'
 
 const TypewriterHeader = () => {
-  const fullText = 'Geprüfte Fahrzeuge und erstklassiger Service kombiniert.';
+  const fullText = 'Geprüfte Fahrzeuge und erstklassiger Service kombiniert';
   const [displayedText, setDisplayedText] = useState('');
   const [index, setIndex] = useState(0);
   const [showRest, setShowRest] = useState(false); // флаг для показа h2 и кнопки
