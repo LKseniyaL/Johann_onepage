@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Johann_onepage/static/css/main.f53a8b59.css",
-    "main.js": "/Johann_onepage/static/js/main.4c7df130.js",
+    "main.css": "/Johann_onepage/static/css/main.c79d7aa3.css",
+    "main.js": "/Johann_onepage/static/js/main.0f1e0a6e.js",
     "static/media/neu_backgraund.png": "/Johann_onepage/static/media/neu_backgraund.76a64ef29337af9cb48b.png",
     "static/media/backgraug.png": "/Johann_onepage/static/media/backgraug.b6280da5efc2c5556701.png",
     "static/media/inzahlungsnamen.png": "/Johann_onepage/static/media/inzahlungsnamen.a35286066d39a2251a4c.png",
@@ -11,7 +11,6 @@
     "static/media/servisBild3.png": "/Johann_onepage/static/media/servisBild3.735827f6d52dda918c3e.png",
     "static/media/garanti.png": "/Johann_onepage/static/media/garanti.6f1301a6024d46a131a4.png",
     "static/media/servisBild1.png": "/Johann_onepage/static/media/servisBild1.213e026cec37b88e20e6.png",
-    "static/media/gewärleistung.png": "/Johann_onepage/static/media/gewärleistung.f2a0120d00768f5b4a87.png",
     "static/media/zulassungsdindt.png": "/Johann_onepage/static/media/zulassungsdindt.41cf04f0542105040b69.png",
     "static/media/Johann.jpeg": "/Johann_onepage/static/media/Johann.11dfa0bc2a61693acf47.jpeg",
     "static/media/finansiren.png": "/Johann_onepage/static/media/finansiren.f5414ec01bf3be594cac.png",
@@ -20,13 +19,14 @@
     "static/media/kunde2.png": "/Johann_onepage/static/media/kunde2.b794ce1fb929f74bb8da.png",
     "static/media/фото2.png": "/Johann_onepage/static/media/фото2.42d999c2c9df9cff8bde.png",
     "static/media/adaptin_backgraund.png": "/Johann_onepage/static/media/adaptin_backgraund.50346b22d8b0f3d65f90.png",
+    "static/media/ebay.png": "/Johann_onepage/static/media/ebay.d9d06ff8bd8f3b62bcea.png",
     "static/media/mobile.jpeg": "/Johann_onepage/static/media/mobile.e04c0b155b93bf2547d5.jpeg",
     "index.html": "/Johann_onepage/index.html",
-    "main.f53a8b59.css.map": "/Johann_onepage/static/css/main.f53a8b59.css.map",
-    "main.4c7df130.js.map": "/Johann_onepage/static/js/main.4c7df130.js.map"
+    "main.c79d7aa3.css.map": "/Johann_onepage/static/css/main.c79d7aa3.css.map",
+    "main.0f1e0a6e.js.map": "/Johann_onepage/static/js/main.0f1e0a6e.js.map"
   },
   "entrypoints": [
-    "static/css/main.f53a8b59.css",
-    "static/js/main.4c7df130.js"
+    "static/css/main.c79d7aa3.css",
+    "static/js/main.0f1e0a6e.js"
   ]
 }
