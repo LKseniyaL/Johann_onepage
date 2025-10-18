@@ -52,23 +52,25 @@ h2{
     text-decoration: none;
     color: #F6F6F6;
 }
-.hero .btn:hover{
+.btn:hover{
     font-size: 27px;
 }
 
 
 /* media */
 @media (max-width: 850px) {
+  .btn:hover{
+    font-size: 20px;
+}
   .img{
     display: none !important;
     position: relative;
     width: 100%;
     height: clamp(775px, 78vw, 975px);
-
-  object-fit: contain;
-  object-position: center center;
-  display: block;
-  margin: 0 auto;
+    object-fit: contain;
+    object-position: center center;
+    display: block;
+    margin: 0 auto;
   }
   .adaptiv_850px{
     position: relative;
