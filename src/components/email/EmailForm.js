@@ -4,7 +4,7 @@ import s from './email.module.css'
 export default function EmailForm() {
   return (
     <form
-        action="https://formsubmit.co/980a7a7a488a1c6bdf8b2e62ba3bf08b"
+        action="https://formsubmit.co/info@jg-carselect.com"
         method="POST"
     >
         <input type="text" name="name" placeholder="Ihr Name" required  className={s.name}/>
@@ -16,7 +16,7 @@ export default function EmailForm() {
     
     {/* Anti-bot поле */}
         {/* <input type="hidden" name="_captcha" value="false" /> */}
-        <input type="hidden" name="_next" value='/danke.html' />    
+        <input type="hidden" name="_next" value={`${window.location.origin}/danke.html`} />    
         <button type="submit" className={s.btn}>Nachricht senden</button>
         <div className={s.subTitel}>Mit dem Absenden des Formulars erkläre ich mich mit der Verarbeitung meiner Daten gemäß der 
             <a href={`${process.env.PUBLIC_URL}/datenschutz.html`} target="_blank"> Datenschutzerklärung</a> einverstanden.

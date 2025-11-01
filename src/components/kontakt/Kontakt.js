@@ -19,7 +19,6 @@ export default function Kontakt() {
             
 
                 <div className={s.tel}>
-                    {/* <div className={s.oder}>oder</div> */}
                     <div className={s.block2}>
                         <img src={phone} alt="Telefon" />
                         <div className={s.text}>Rufen Sie mich an:</div>

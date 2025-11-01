@@ -56,6 +56,9 @@
     background: rgba(33, 117, 38, 0.49);
     filter: blur(clamp(100px, 30vw, 745.5px));
 }
+.firmaName{
+  display: inline;
+}
 
 @keyframes breathe {
   0%, 100% { transform: scale(1); }
@@ -64,6 +67,11 @@
 
 
 /* media */
+@media (max-width: 900px){
+  .firmaName{
+    display: block;
+  }
+}
 @media (max-width: 850px) {
   /* адаптация под ноутбуки */
   .title{

@@ -25,7 +25,7 @@ export default function About() {
             <div className={s.blurBlock}></div>
 
             <div className={s.textAbout}>
-                <p>Herzlich willkommen bei JG CarSelect.</p>
+                <p>Herzlich willkommen bei <span className={s.firmaName}>JG CarSelect.</span></p>
                 <p>Mein Name ist Johann Grüner. Ich bin der Inhaber und gleichzeitig Ihr persönlicher Ansprechpartner rund um Ihre Wünsche.</p>
                 <p>Transparenz und Kundenzufriedenheit wird bei mir besonders geschätzt. Flexible und maßgeschneiderte Lösungen sind mir stets eine Freude, mit der ich wachsen kann.</p>
                 <p>Besuchen Sie mich gerne und lassen Sie sich von meinem Service überzeugen.</p> <p>Ich freue mich auf Sie!</p>
