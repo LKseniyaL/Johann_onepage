@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Johann_onepage/static/css/main.d43ac246.css",
-    "main.js": "/Johann_onepage/static/js/main.12016b8a.js",
+    "main.css": "/Johann_onepage/static/css/main.fa6234d9.css",
+    "main.js": "/Johann_onepage/static/js/main.1b1f1130.js",
     "static/media/neu_backgraund.png": "/Johann_onepage/static/media/neu_backgraund.76a64ef29337af9cb48b.png",
     "static/media/backgraug.png": "/Johann_onepage/static/media/backgraug.b6280da5efc2c5556701.png",
     "static/media/inzahlungsnamen.png": "/Johann_onepage/static/media/inzahlungsnamen.a35286066d39a2251a4c.png",
@@ -22,11 +22,11 @@
     "static/media/ebay.png": "/Johann_onepage/static/media/ebay.d9d06ff8bd8f3b62bcea.png",
     "static/media/mobile.jpeg": "/Johann_onepage/static/media/mobile.e04c0b155b93bf2547d5.jpeg",
     "index.html": "/Johann_onepage/index.html",
-    "main.d43ac246.css.map": "/Johann_onepage/static/css/main.d43ac246.css.map",
-    "main.12016b8a.js.map": "/Johann_onepage/static/js/main.12016b8a.js.map"
+    "main.fa6234d9.css.map": "/Johann_onepage/static/css/main.fa6234d9.css.map",
+    "main.1b1f1130.js.map": "/Johann_onepage/static/js/main.1b1f1130.js.map"
   },
   "entrypoints": [
-    "static/css/main.d43ac246.css",
-    "static/js/main.12016b8a.js"
+    "static/css/main.fa6234d9.css",
+    "static/js/main.1b1f1130.js"
   ]
 }
